@@ -1,5 +1,6 @@
 # DMST-Algorithms-and-Data-Structures-Assignments (Python)
 The Algorithms in this repository are implemented in Python programming language and where written in the context of the course ‘Algorithms-and-Data-Structures’ in Athens University of Economics and Business, department of Management Science and Technology.
+
 ## Assignment No.1: Tournament planning
 You can find the assignment [here](https://github.com/dmst-algorithms-course/assignment-2017-1).
 In this program we must schedule the tournament so that each competitor has only one match each day. The problem is also described as the edge 'colouring problem'.
@@ -15,13 +16,13 @@ d e
 e c
 ...
 ```
-## Assignment: Findings groups 
+
+## Assignment No.2: Findings groups 
 You can find the assignment [here](http://nbviewer.jupyter.org/github/dmst-algorithms-course/assignment-2017-2/blob/master/assignment_2017_2.ipynb).
 The program reads a file from cmd like this:
 `python community_structure.py [-n GROUPS ] graph_file` and detects community structure in networks.
 
 * `graph_file` is in the form:
-
 ```
 1 3
 1 10
@@ -34,7 +35,8 @@ The program reads a file from cmd like this:
 **More information:**
 * The algorithm that we use at the exercise was added by M. E. J. Newman at the article "Fast algorithm for detecting community structure in networks", Phys. Rev. E 69, 066133, 2004. You can find it [here](https://arxiv.org/abs/cond-mat/0309508).
 
-## Assignment: Steiner system (Steiner Triple Systems)
+
+## Assignment No.3: Steiner system (Steiner Triple Systems)
 You can find the assignment [here](http://nbviewer.jupyter.org/github/dmst-algorithms-course/assignment-2017-3/blob/master/assignment_2017_3.ipynb).
 The program reads a file from cmd like this:
 `python sts.py n`
